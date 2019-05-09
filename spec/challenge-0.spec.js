@@ -14,7 +14,7 @@ describe('starts at 1', function () {
     expect(challenge([
       {word: 'fizz', number: 3},
       {word: 'buzz', number: 5}],
-    60)[0]).to.equal('1')
+    60)[0]).to.equal(1)
   })
 })
 
